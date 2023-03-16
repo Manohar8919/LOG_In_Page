@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>LOGin_page1</title>
+    <link rel="stylesheet" href="./login page2.css">
+    <script src="./login page2.js" defer></script>
+</head>
+<body>
+    <div id="outerdiv">
+        <div id="innerdiv">
+            <h1 id="loginheading">Login</h1>
+            <form>
+                <div id="emaildiv">
+                    <input class="in" id="email" placeholder="Enter userId">
+                </div>
+                <span id="result"></span>
+                <div id="passdiv">
+                    <input class="in" id="pass" type="password" placeholder="password">
+                    <img id="visible" src="./Monkey_login1.jpeg" onmousedown="visiblility()" onmouseup="hide()">
+                </div>
+                <input type="button" id="but" value="Login" onclick="authorize()">
+            </form>    
+        </div>
+    </div>
+</body>
+</html>
